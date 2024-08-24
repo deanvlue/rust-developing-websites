@@ -4,4 +4,6 @@ I have created a [docker-compose.yaml](docker-compose.yaml) file in order to ena
 
 ## Diesel.rs missing libraries
 
-In Fedora, postgres libaries are needed in order for Diesel.rs to compile
+In Fedora, postgres libaries are needed in order for Diesel.rs to compile:
+
+`sudo dnf install postgresql-devel`

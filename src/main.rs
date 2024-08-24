@@ -1,3 +1,6 @@
+mod models;
+use self::models::*;
+
 use actix_files::Files;
 use actix_web::{web, App, HttpResponse, HttpServer};
 
@@ -26,6 +29,9 @@ async fn index(hb: web::Data<Handlebars<'_>>) -> HttpResponse {
     let body = hb.render("index", &data).unwrap();
 
     HttpResponse::Ok().body(body)
+
+    let miñingo = 0;
+
 }
 
 #[actix_web::main]
