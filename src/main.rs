@@ -30,8 +30,6 @@ async fn index(hb: web::Data<Handlebars<'_>>) -> HttpResponse {
 
     HttpResponse::Ok().body(body)
 
-    let miñingo = 0;
-
 }
 
 #[actix_web::main]

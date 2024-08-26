@@ -6,4 +6,4 @@ file = "src/schema.rs"
 custom_type_derives = ["diesel::query_builder::QueryId", "Clone"]
 
 [migrations_directory]
-dir = "/home/deanvlue/dev/rust/practical_rust_web_projects/catdex/migrations"
+dir = "/workspaces/catdex/migrations"
